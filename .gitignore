@@ -1,10 +1,10 @@
-node_modules/
-dist/
+#node_modules/
+#dist/
 .tmp/
 .idea
 *.iml
-coverage/
-.sass-cache/
+#coverage/
+#.sass-cache/
 npm-debug.log
 src/app/index.version.js
 .vs/

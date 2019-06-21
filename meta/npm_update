@@ -1,0 +1,74 @@
+[agonar@RHEL6 vector]sudo $ npm config set strict-ssl false
+[agonar@RHEL6 vector]$ sudo npm install npm -g
+npm http GET https://registry.npmjs.org/npm
+npm http 200 https://registry.npmjs.org/npm
+npm http GET https://registry.npmjs.org/npm/-/npm-6.9.0.tgz
+npm http 200 https://registry.npmjs.org/npm/-/npm-6.9.0.tgz
+npm WARN package.json path-is-inside@1.0.2 No README data
+npm WARN package.json sorted-object@2.0.1 No README data
+/usr/bin/npm -> /usr/lib/node_modules/npm/bin/npm-cli.js
+/usr/bin/npx -> /usr/lib/node_modules/npm/bin/npx-cli.js
+npm WARN unmet dependency /usr/lib/node_modules/block-stream requires inherits@'~2.0.0' but will load
+npm WARN unmet dependency undefined,
+npm WARN unmet dependency which is version undefined
+npm WARN unmet dependency /usr/lib/node_modules/fstream requires inherits@'~2.0.0' but will load
+npm WARN unmet dependency undefined,
+npm WARN unmet dependency which is version undefined
+npm WARN unmet dependency /usr/lib/node_modules/fstream-ignore requires inherits@'2' but will load
+npm WARN unmet dependency undefined,
+npm WARN unmet dependency which is version undefined
+npm WARN unmet dependency /usr/lib/node_modules/fstream-npm requires inherits@'2' but will load
+npm WARN unmet dependency undefined,
+npm WARN unmet dependency which is version undefined
+npm WARN unmet dependency /usr/lib/node_modules/glob requires inherits@'2' but will load
+npm WARN unmet dependency undefined,
+npm WARN unmet dependency which is version undefined
+npm WARN unmet dependency /usr/lib/node_modules/npmconf requires inherits@'~2.0.0' but will load
+npm WARN unmet dependency undefined,
+npm WARN unmet dependency which is version undefined
+npm WARN unmet dependency /usr/lib/node_modules/tar requires inherits@'2' but will load
+npm WARN unmet dependency undefined,
+npm WARN unmet dependency which is version undefined
+npm WARN unmet dependency /usr/lib/node_modules/npm/node_modules/glob requires minimatch@'^3.0.4' but will load
+npm WARN unmet dependency /usr/lib/node_modules/minimatch,
+npm WARN unmet dependency which is version 0.2.12
+npm WARN unmet dependency /usr/lib/node_modules/npm/node_modules/init-package-json requires promzard@'^0.3.0' but will load
+npm WARN unmet dependency /usr/lib/node_modules/promzard,
+npm WARN unmet dependency which is version 0.2.0
+npm WARN unmet dependency /usr/lib/node_modules/npm/node_modules/node-gyp requires fstream@'^1.0.0' but will load
+npm WARN unmet dependency /usr/lib/node_modules/fstream,
+npm WARN unmet dependency which is version 0.1.24
+npm WARN unmet dependency /usr/lib/node_modules/npm/node_modules/pacote requires minimatch@'^3.0.4' but will load
+npm WARN unmet dependency /usr/lib/node_modules/minimatch,
+npm WARN unmet dependency which is version 0.2.12
+npm WARN unmet dependency /usr/lib/node_modules/npm/node_modules/request requires combined-stream@'~1.0.6' but will load
+npm WARN unmet dependency /usr/lib/node_modules/combined-stream,
+npm WARN unmet dependency which is version 0.0.4
+npm WARN unmet dependency /usr/lib/node_modules/npm/node_modules/request requires forever-agent@'~0.6.1' but will load
+npm WARN unmet dependency /usr/lib/node_modules/forever-agent,
+npm WARN unmet dependency which is version 0.5.0
+npm WARN unmet dependency /usr/lib/node_modules/npm/node_modules/request requires form-data@'~2.3.2' but will load
+npm WARN unmet dependency /usr/lib/node_modules/form-data,
+npm WARN unmet dependency which is version 0.1.1
+npm WARN unmet dependency /usr/lib/node_modules/npm/node_modules/request requires http-signature@'~1.2.0' but will load
+npm WARN unmet dependency /usr/lib/node_modules/http-signature,
+npm WARN unmet dependency which is version 0.10.0
+npm WARN unmet dependency /usr/lib/node_modules/npm/node_modules/request requires json-stringify-safe@'~5.0.1' but will load
+npm WARN unmet dependency /usr/lib/node_modules/json-stringify-safe,
+npm WARN unmet dependency which is version 5.0.0
+npm WARN unmet dependency /usr/lib/node_modules/npm/node_modules/request requires oauth-sign@'~0.9.0' but will load
+npm WARN unmet dependency /usr/lib/node_modules/oauth-sign,
+npm WARN unmet dependency which is version 0.3.0
+npm WARN unmet dependency /usr/lib/node_modules/npm/node_modules/request requires qs@'~6.5.2' but will load
+npm WARN unmet dependency /usr/lib/node_modules/qs,
+npm WARN unmet dependency which is version 0.6.6
+npm WARN unmet dependency /usr/lib/node_modules/npm/node_modules/request requires tunnel-agent@'^0.6.0' but will load
+npm WARN unmet dependency /usr/lib/node_modules/tunnel-agent,
+npm WARN unmet dependency which is version 0.3.0
+npm WARN unmet dependency /usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/tar requires fstream@'^1.0.2' but will load
+npm WARN unmet dependency /usr/lib/node_modules/fstream,
+npm WARN unmet dependency which is version 0.1.24
+npm@6.9.0 /usr/lib/node_modules/npm
+
+[agonar@RHEL6 vector]$ export PATH=$PATH:/home/agonar/Downloads/node-v10.16.0-linux-x64/bin/
+

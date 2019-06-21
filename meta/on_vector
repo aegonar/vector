@@ -1,0 +1,7 @@
+t clone https://github.com/Netflix/vector.git
+$ cd vector
+$ nvm use
+$ npm install
+$ npm run build
+
+$ npm run serve
