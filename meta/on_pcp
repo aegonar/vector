@@ -1,0 +1,7 @@
+https://www.redhat.com/en/blog/getting-started-using-performance-co-pilot-and-vector-browser-based-metric-visualizations
+
+systemctl start pmcd pmwebd
+firewall-cmd --add-port=44321/tcp --permanent
+systemctl start pmcd
+
+servuce start pmlogger
